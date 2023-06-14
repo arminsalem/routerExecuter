@@ -1,4 +1,3 @@
-const { updateMonitoredServer } = require('./updateDatabase');
 const RouterOSAPI = require('node-routeros').RouterOSAPI;
 
 class RouterExecuter {
@@ -82,7 +81,6 @@ class RouterExecuter {
 
 module.exports = new RouterExecuter();
 
-// const { updateMonitoredServer } = require('./updateDatabase');
 // const RouterOSAPI = require('node-routeros').RouterOSAPI;
 
 // /**
